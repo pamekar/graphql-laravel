@@ -1870,6 +1870,9 @@ Although version 2 builds on the same code base and does not radically change ho
   - The signature of the method args changed:
     - from `public function args()`
     - to `public function args(): array`
+  - The signature of the method rules changed:
+    - from `function rules(array $args = [])`
+    - to `function rules(array $args = []): array`
   - The signature of the method queryContext changed:
     - from `protected function queryContext($query, $variables, $schema)`
     - to `protected function queryContext()`
